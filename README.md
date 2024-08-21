@@ -12,7 +12,7 @@ Python bindings for NYC Planning's [Geosupport Desktop Edition](https://www1.nyc
 Clone this repository, `cd` into it and:
 
 ```commandline
-$ python setup.py install
+$ pip install .
 ```
 
 ## Environment Variables

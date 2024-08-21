@@ -7,6 +7,24 @@ Python bindings for NYC Planning's [Geosupport Desktop Edition](https://www1.nyc
 
 ### [Read the docs](https://python-geosupport.readthedocs.io/en/latest/) 
 
+## Installation
+
+Clone this repository, `cd` into it and:
+
+```commandline
+$ python setup.py install
+```
+
+## Environment Variables
+
+By default, a clean installation of Geosupport Desktop Edition will set the appropriate environmental variables. If you are experiencing issues setting up your environment, you will want to ensure the following environment variables are set.
+
+- **GEOFILES**: Path to the *fls* directory of Geosupport. Example: ``C:\Program Files (x86)\Geosupport Desktop Edition\fls\``
+
+- **PATH**: Add the *bin* directory of Geosupport to the *path* variable. Example: ``C:\Program Files (x86)\Geosupport Desktop Edition\bin``
+
+Alternatively see the :ref:`configuration` section for other (easier) options on specifying a path to the Geosupport directory.
+
 ## Quickstart
 
 ```python
